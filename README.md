@@ -25,7 +25,6 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 When starting up the code, I was scared at first by how complex the code structure was. I did not understand a single function at the start. Now when I'm reviewing the game, I learned of it's purpose. It's a guessing game where the user will try to guess the secret number with limited attempts. When looking for bugs, I found out that the Hints were reversed. There was also a problem regarding the registration of the attemps. Even the secret number not being able to stay within the range. Furthremore, there were a lot problem with the submitting guess inputs. Sometimes if the user keep submitting the answer, the score keeps decreasing again and again, the attempts were not decreasing, the hints keep flipping and such. So to fix that, I used Claude to fix the range value for each of the difficulty. It also fixed the input errors. The Hint error by reversing the statements. And lastly it fixed the Score Values.
-
 - [x] Describe the game's purpose.
 - [x] Detail which bugs you found.
 - [x] Explain what fixes you applied.
